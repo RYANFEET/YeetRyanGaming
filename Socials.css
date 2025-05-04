@@ -51,6 +51,13 @@
   color: #fff;
 }
 
+/* Discord Link Adjustment */
+.u-section-1 .u-text-7 {
+  width: 826px;
+  margin: -8px auto 0; /* Keeps the same as others, with negative margin to adjust the spacing */
+  text-align: center; /* Ensures the text remains centered */
+}
+
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
     min-height: 660px;
