@@ -1,4 +1,4 @@
- .u-section-1 {
+.u-section-1 {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/YeetRyanGaming3.png');
   background-position: 50% 50%;
 }
@@ -61,6 +61,16 @@
   padding: 0;
 }
 
+.u-section-1 .u-text-7 {
+  width: 826px;
+  margin: -10px auto 60px;
+}
+
+.u-section-1 .u-btn-6 {
+  background-image: none;
+  padding: 0;
+}
+
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
     min-height: 660px;
@@ -89,6 +99,16 @@
   .u-section-1 .u-text-6 {
     margin-left: 57px;
     margin-right: 57px;
+  }
+
+  .u-section-1 .u-text-7 {
+    margin-left: 57px;
+    margin-right: 57px;
+  }
+
+  .u-section-1 .u-btn-6 {
+    width: 100%;
+    padding: 10px;
   }
 }
 
@@ -126,6 +146,17 @@
     margin-right: 0;
     width: 720px;
   }
+
+  .u-section-1 .u-text-7 {
+    margin-left: 0;
+    margin-right: 0;
+    width: 720px;
+  }
+
+  .u-section-1 .u-btn-6 {
+    width: 100%;
+    padding: 10px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -152,6 +183,15 @@
   .u-section-1 .u-text-6 {
     width: 540px;
   }
+
+  .u-section-1 .u-text-7 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-btn-6 {
+    width: 100%;
+    padding: 10px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -177,5 +217,17 @@
 
   .u-section-1 .u-text-6 {
     width: 340px;
+  }
+
+  .u-section-1 .u-text-7 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-btn-6 {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
   }
 }
