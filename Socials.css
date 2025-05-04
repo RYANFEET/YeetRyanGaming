@@ -33,7 +33,8 @@
   display: inline-block;
   width: 100%;
   text-align: center;
-  margin-top: 10px; /* Adjusted margin-top for 50px total space */
+  margin-top: 10px; /* Adjusted for 20px total space */
+  margin-bottom: 10px; /* Added margin-bottom for consistent spacing */
   text-decoration: none;
   font-size: 18px;
   color: #fff;
@@ -54,8 +55,10 @@
 /* Discord Link Adjustment */
 .u-section-1 .u-text-7 {
   width: 826px;
-  margin: 0 auto 10px; /* Adjusted margin-bottom to 10px for consistent spacing */
+  margin: 0 auto;
   text-align: center;
+  margin-top: 10px; /* Adjusted for 20px total space */
+  margin-bottom: 10px; /* Added margin-bottom for consistent spacing */
 }
 
 @media (max-width: 1199px) {
