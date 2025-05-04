@@ -18,7 +18,7 @@
 .u-section-1 .u-text-6, 
 .u-section-1 .u-text-7 {
   width: 826px;
-  margin: 0 auto;
+  margin: 16px auto 0; /* Uniform margin for all links */
   text-align: center;
 }
 
@@ -54,8 +54,8 @@
 /* Discord Link Adjustment */
 .u-section-1 .u-text-7 {
   width: 826px;
-  margin: -8px auto 0; /* Keeps the same as others, with negative margin to adjust the spacing */
-  text-align: center; /* Ensures the text remains centered */
+  margin: 16px auto 0; /* Matching the margin of other links */
+  text-align: center;
 }
 
 @media (max-width: 1199px) {
