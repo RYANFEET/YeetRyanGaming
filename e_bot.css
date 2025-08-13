@@ -1,0 +1,104 @@
+/* e_bot.css */
+
+/* Body and page basics */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0d;
+    color: #fff;
+    text-align: center;
+}
+
+/* Bot section */
+.bot-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    padding: 50px 20px;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/YeetRyanGaming3.png') no-repeat center center;
+    background-size: cover;
+}
+
+/* Bot logo */
+.bot-logo {
+    max-width: 300px;
+    width: 50%;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 20px; /* optional for rounded edges */
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+}
+
+/* Add bot button */
+.add-bot-btn {
+    display: inline-block;
+    background-color: #7289da;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    margin: 20px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.add-bot-btn:hover {
+    background-color: #5b6eae;
+    transform: scale(1.05);
+}
+
+/* Support server button */
+.support-btn {
+    display: inline-block;
+    background-color: #43b581;
+    color: white;
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding: 12px 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.support-btn:hover {
+    background-color: #369b6e;
+    transform: scale(1.05);
+}
+
+/* Bot description */
+.bot-description {
+    max-width: 900px;
+    margin: 30px auto 0;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #ddd;
+    padding: 0 15px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 767px) {
+    .bot-logo {
+        max-width: 200px;
+    }
+    .add-bot-btn {
+        font-size: 1.2rem;
+        padding: 12px 25px;
+    }
+    .support-btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+    .bot-description {
+        font-size: 1rem;
+    }
+}
