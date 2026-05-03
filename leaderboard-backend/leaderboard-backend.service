@@ -1,0 +1,16 @@
+[Unit]
+Description=YeetRyan Leaderboard Backend
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/website/leaderboard-backend
+ExecStart=/usr/bin/node /home/ubuntu/website/leaderboard-backend/server.js
+Restart=always
+RestartSec=5
+Environment=PORT=3000
+Environment=DATA_DIR=/home/ubuntu/website/leaderboard-backend/data
+
+[Install]
+WantedBy=multi-user.target
